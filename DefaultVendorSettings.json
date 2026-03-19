@@ -1,0 +1,230 @@
+{
+  "DefaultVendorMoney": 500,
+  "VendorMoneyScalingByLevel": 0.1,
+  "SellPriceMultiplicator": 0.33,
+  "VendorTagToItemMap": {
+    "Character.NPC.Occupation.Blacksmith": {
+      "ItemRequirements": {
+        "RequireTags": [
+          "Buildings.Crafting.Equipment.Blacksmith",
+          "Buildings.Crafting.Equipment.GraniteSmithy",
+          "Item.Weapon"
+        ],
+        "IgnoreTags": [
+          "Item.Ressource.Ingot",
+          "Item.Ressource.Ore",
+          "Item.Wearable.Accessory",
+          "Item.Projectile",
+          "Buildings.Crafting.Equipment.Workbench"
+        ]
+      },
+      "ItemProbability": 0.5,
+      "ExtensionRarityToDropChance": {
+        "Legendary": 0.05,
+        "Epic": 0.1,
+        "Rare": 0.2,
+        "Uncommon": 0.3
+      }
+    },
+    "Character.NPC.Occupation.Carpenter": {
+      "ItemRequirements": {
+        "RequireTags": [
+          "Buildings.Crafting.Equipment.Workbench",
+          "Item.Ressource.Feather",
+          "Item.Ressource.Marble",
+          "Item.Ressource.Plank",
+          "Item.Ressource.Stick",
+          "Item.Ressource.Rock.Granite"
+        ],
+        "IgnoreTags": [
+          "Item.Armor",
+          "Item.Projectile",
+          "Item.Tool.Hoe",
+          "Item.Tool.Scythe",
+          "Item.Tool.trowel"
+        ]
+      },
+      "ItemProbability": 0.5,
+      "ExtensionRarityToDropChance": {
+        "Legendary": 0.01,
+        "Epic": 0.05,
+        "Rare": 0.1,
+        "Uncommon": 0.2
+      }
+    },
+    "Character.NPC.Occupation.Cook": {
+      "ItemRequirements": {
+        "RequireTags": [
+          "Item.Consumable",
+          "Item.Ressource.Food"
+        ],
+        "IgnoreTags": [
+          "Item.Consumable.Medicine"
+        ]
+      },
+      "ItemProbability": 0.75,
+      "ExtensionRarityToDropChance": {
+        "Legendary": 0.01,
+        "Epic": 0.05,
+        "Rare": 0.1,
+        "Uncommon": 0.2
+      }
+    },
+    "Character.NPC.Occupation.Farmer": {
+      "ItemRequirements": {
+        "RequireTags": [
+          "Item.Tool.Hoe",
+          "Item.Tool.Scythe",
+          "Item.Tool.trowel",
+          "Item.Tool.Shovel",
+          "Item.Tool.Torch",
+          "Item.Ressource.Seed",
+          "Item.Ressource.Plant.Bulrush",
+          "Item.Ressource.Plant.Wheat",
+          "Item.Ressource.Wool",
+          "Item.Ressource.Food.Butter",
+          "Item.Ressource.Food.Cheese",
+          "Item.Ressource.Food.Egg"
+        ],
+        "IgnoreTags": []
+      },
+      "ItemProbability": 0.9,
+      "ExtensionRarityToDropChance": {
+        "Legendary": 0.005,
+        "Epic": 0.01,
+        "Rare": 0.05,
+        "Uncommon": 0.1
+      }
+    },
+    "Character.NPC.Occupation.Hunter": {
+      "ItemRequirements": {
+        "RequireTags": [
+          "Item.Projectile",
+          "Item.Ressource.Leather",
+          "Item.Ressource.Food.Meat",
+          "Item.Weapon.Ranged",
+          "Item.Weapon.TwoHanded",
+          "Item.Ressource.Wool",
+          "Item.Consumable.Medicine"
+        ],
+        "IgnoreTags": []
+      },
+      "ItemProbability": 1.0,
+      "ExtensionRarityToDropChance": {
+        "Legendary": 0.05,
+        "Epic": 0.1,
+        "Rare": 0.2,
+        "Uncommon": 0.3
+      }
+    },
+    "Character.NPC.Occupation.Jewler": {
+      "ItemRequirements": {
+        "RequireTags": [
+          "Item.Ressource.Ingot",
+          "Item.Ressource.Ore",
+          "Item.Wearable.Accessory"
+        ],
+        "IgnoreTags": [
+          "Item.Wearable.Accessory.Quiver"
+        ]
+      },
+      "ItemProbability": 1.0,
+      "ExtensionRarityToDropChance": {
+        "Legendary": 0.05,
+        "Epic": 0.1,
+        "Rare": 0.2,
+        "Uncommon": 0.5
+      }
+    },
+    "Character.NPC.Occupation.Tailor": {
+      "ItemRequirements": {
+        "RequireTags": [
+          "Buildings.Crafting.Equipment.Spindle",
+          "Buildings.Crafting.Equipment.TailoringWorkBench",
+          "Buildings.Crafting.Equipment.Workbench",
+          "Item.Armor",
+          "Item.Wearable",
+          "Item.Ressource.Wool",
+          "Item.Ressource.Leather",
+          "Item.Consumable.Medicine.Bandage"
+        ],
+        "IgnoreTags": [
+          "Item.Projectile",
+          "Item.Wearable.Accessory",
+          "Character.NPC.Villager",
+          "Item.Tool",
+          "Item.Weapon",
+          "Item.Ressource.Gear",
+          "Item.Ressource.Track",
+          "Item.Ressource.Seed",
+          "Item.Ressource.Structure",
+          "Item.Consumable.Book",
+          "Item.Consumable.Drink",
+          "Item.Consumable.Food"
+        ]
+      },
+      "ItemProbability": 0.5,
+      "ExtensionRarityToDropChance": {
+        "Legendary": 0.01,
+        "Epic": 0.05,
+        "Rare": 0.15,
+        "Uncommon": 0.3
+      }
+    },
+    "Character.NPC.Occupation.Breeder": {
+      "ItemRequirements": {
+        "RequireTags": [
+          "Item.Animal"
+        ],
+        "IgnoreTags": [
+          "Item.Animal.Dead",
+          "Item.Animal.Sheep"
+        ]
+      },
+      "ItemProbability": 1.0,
+      "ExtensionRarityToDropChance": {
+        "Legendary": 0.0,
+        "Epic": 0.0,
+        "Rare": 0.0,
+        "Uncommon": 0.0
+      }
+    },
+    "Character.NPC.Occupation.Warrior": {
+      "ItemRequirements": {
+        "RequireTags": [
+          "Item.Weapon",
+          "Item.Wearable",
+          "Item.Consumable.Medicine"
+        ],
+        "IgnoreTags": [
+          "Item.Wearable.Accessory",
+          "Character.NPC.Villager"
+        ]
+      },
+      "ItemProbability": 1.0,
+      "ExtensionRarityToDropChance": {
+        "Legendary": 0.05,
+        "Epic": 0.1,
+        "Rare": 0.2,
+        "Uncommon": 0.5
+      }
+    }
+  },
+  "VendorToLevelMapping": {
+    "1": [
+      "Character.NPC.Occupation.Blacksmith",
+      "Character.NPC.Occupation.Carpenter",
+      "Character.NPC.Occupation.Cook",
+      "Character.NPC.Occupation.Warrior",
+      "Character.NPC.Occupation.Farmer",
+      "Character.NPC.Occupation.Hunter",
+      "Character.NPC.Occupation.Tailor"
+    ],
+    "2": [
+      "Character.NPC.Occupation.Breeder"
+    ],
+    "4": [
+      "Character.NPC.Occupation.Jewler"
+    ]
+  }
+}

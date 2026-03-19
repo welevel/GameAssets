@@ -187,7 +187,6 @@ The structure is:
 
 ## Category Name
 
-### Display Name
 - Name: Raw Extracted Name
 - Description: The item's description text
 - Level: 4
@@ -196,6 +195,7 @@ The structure is:
 - Weight: 2
 - Crafted using Copper Ingot x2, Deer Leather x1, Pinewood x1
 - Crafted at: Granite Smithy
+### Interpreted Display Name
 ```
 
 ### Category-Specific Formatting
